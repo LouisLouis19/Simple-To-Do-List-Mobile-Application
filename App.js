@@ -31,7 +31,7 @@ export default function App() {
     <View style={styles.container}>
       {/*Create section for Today's Tasks*/}
       <View style={styles.tasksWrapper}>
-        <Text style={styles.sectionTitle}>Today's Tasks</Text>
+        <Text style={styles.sectionTitle}>My Task for Today</Text>
 
         <View style={styles.items}>
           {/*This is where the Tasks will go*/}
@@ -73,15 +73,16 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#E8EAED",
+    backgroundColor: "#FFE4B5",
   },
   tasksWrapper: {
     paddingTop: 80,
     paddingHorizontal: 20,
   },
   sectionTitle: {
-    fontSize: 24,
+    fontSize: 30,
     fontWeight: "bold",
+    textAlign: 'center'
   },
   items: {
     marginTop: 30,
@@ -100,8 +101,8 @@ const styles = StyleSheet.create({
     width: 250,
     backgroundColor: "#FFF",
     borderRadius: 60,
-    borderColor: "#C0C0C0",
-    borderWidth: 1,
+    borderColor: "#FF7F50",
+    borderWidth: 2,
   },
   createButton: {
     width: 60,
@@ -110,8 +111,8 @@ const styles = StyleSheet.create({
     borderRadius: 60,
     justifyContent: "center",
     alignItems: "center",
-    borderColor: "#C0C0C0",
-    borderWidth: 1,
+    borderColor: "#FF7F50",
+    borderWidth: 2,
   },
   add: {},
 });

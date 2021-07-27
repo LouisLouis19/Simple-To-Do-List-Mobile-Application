@@ -32,20 +32,21 @@ const styles = StyleSheet.create({
   square: {
     width: 24,
     height: 24,
-    backgroundColor: "#55BCF6",
+    backgroundColor: "#FF8C00",
     opacity: 0.4,
     borderRadius: 5,
     marginRight: 15,
   },
   itemText: {
     maxWidth: "80%",
+    fontSize: 20,
   },
   circle: {
     width: 12,
     height: 12,
-    borderColor: "#55BCF6",
+    borderColor: "#FF8C00",
     borderRadius: 5,
-    borderWidth: 2,
+    borderWidth: 3,
   },
 });
 
